@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {                           /* Adjusting font size to 15 for all paragraphs */
+  font-size:15px;
+}
+
+h2{                       /* Adjusting size of h2 to size 20 */
+  font-size:20px ;
+}
+
+header, h2 {                /* Alignment for h2 and all of the header container*/
+  text-align: center;
+}
+
+main, header, footer{             /* font selection */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-background{                 /* class to change background color to black and text white*/
+ background-color: black;
+ color: white;
+}
+
+.gray-background{                    /* class to change background color to gray*/
+  background-color: #6E6D69;
+}
+
+body{                                  /* giving margin and padding sizes to body*/
+  background-color: #D9D9DB;
+  margin:0;
+  padding: 20px
+}
+ /* below are pseudo coded links to show original color, visited, and hover*/
+a:link{
+  color: blue
+}
+a:visited{
+  color: darkgreen;
+}
+a:hover{
+  color: purple
+}
+
+.border-box{
+  box-sizing: border-box;      /* control margin and padding*/
+}
+img{                           /* used to center the images*/
+  display:block;
+  width: 300px;
+  margin: auto
+}
